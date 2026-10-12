@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="nacionalidad" directorySegmentName="seg_0" id="E0579EFE-1890-990F-417C-C7373159FA8A">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="descripcion" id="1F0B119C-37A5-281F-C3C0-860B7ED769A9">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_nacion" id="629371A6-DAF1-1878-A903-0BF36A0750FB">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="nacionalidad_pk" id="7F68C200-A2A6-FC2B-8720-AF0AE0984FCA">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

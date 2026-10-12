@@ -1,0 +1,305 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FAF25189-94CE-6498-0A11-4DCB3158BF34" name="trabajador">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>5A7F0BD1-4D59-5DA2-5249-90DA90F01B08</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nro inscripcion" id="9CE75A09-4EE1-5E6A-A42F-B3478FA9028C">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>21DA6414-E14C-1B71-4776-64AC1760E1F7</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7626A7F-B8BF-DB04-C63B-CCF942929CBB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="9265186C-DA83-AB9F-319F-5030BD118377">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>60742597-DC13-2FDD-47C8-468F4E469D37</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1AF3D19D-5DF9-621D-1F12-10BF846C2001</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dv" id="4A6B5E6C-F198-F013-F035-2316821CC46E">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>9BF1614A-9A89-16D5-619D-93770F2626C1</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>02F8B47F-BAC2-886F-A995-80E40E39BEF1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombres" id="0D0B1139-C5F7-8655-2291-6FA2117AD4B0">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>B1583D87-7E98-4075-BF10-8CDCC792A284</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E0A58261-1ED8-A9BB-1E5B-8ACF23DB5EE9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="B93DE23D-7DC5-59D2-CFC3-EE27BB6DC624">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>9D51CD7F-1A9A-1870-A37D-74ADD9C52B85</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E0A58261-1ED8-A9BB-1E5B-8ACF23DB5EE9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sueldo base" id="8A378382-16A5-7FF3-ECE0-186D68671088">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>ACC8D7F2-2472-E61B-A040-8C48CBC2E9A5</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7626A7F-B8BF-DB04-C63B-CCF942929CBB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha nac" id="08C157C2-7465-F08D-45B2-AA44FE054B8F">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>2549E444-DEE1-207A-4BA2-C879C250BBBF</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>000CD665-38A6-05DB-793C-6D7D4868C653</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="607A5831-8C24-3DC4-F03A-B425ACCE6325">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>E9634AD9-9188-A1B2-942C-D992CE178037</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>02F8B47F-BAC2-886F-A995-80E40E39BEF1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado civil" id="01BA0557-C72C-66A0-1F8E-37B576679188">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>1725F1A3-4665-1788-ECF4-129122B89EAD</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B71BD922-C799-1303-8B87-02316E98A7B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono movil" id="577A2B55-744A-EBCE-3356-D55708E9A6DA">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>31B884F5-28E9-7C57-50AB-C3F884A8AF35</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E01DA2C5-E181-2704-A572-508418DAB338</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="793CC156-174B-9DBD-E25F-A80ED0C3B97C">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>E59BBD84-2CDE-2AA2-7B7D-C70828B3AF55</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A5AF613C-5013-ED48-7FB0-87C3003E2A12</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id comuna" id="21E29E45-DDC5-0B0F-C5A5-E956B2B5674C">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>E47C2187-8072-673C-D323-148D6842AF1C</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<referedAttribute>B168C308-42E9-AD6B-C40F-97C95BB41861</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1D82804B-0DF3-587E-F9AB-15B12A23D6CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo trabajador" id="76651256-D340-E0A5-665F-355AF9C1D223">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>CF877233-B3B6-E741-B3B3-44E4D6A51F4A</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B71BD922-C799-1303-8B87-02316E98A7B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="puesto" id="14B0ADAA-601B-0BAF-FF39-7D1C2A430510">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>ABEEBB80-A787-A07E-8C37-674A51686696</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1B1B5E69-A2E1-0994-6B5A-668B52296380</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto premios" id="775467BD-5EF6-B894-F6ED-B1BAF8B0F8EF">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>112737D8-DA62-8833-E03A-8A18F95827D5</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D3EC65E-ED1A-86DB-5D72-F971E48A6252</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="año fin amateurismo" id="5A6AD4A3-5E2C-3A7F-303E-A473795C2EFE">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>CC7DC3FA-FC77-FD00-E5F1-8069BD15C7E5</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1D82804B-0DF3-587E-F9AB-15B12A23D6CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id escuela" id="5464E213-8B52-912D-70BE-1F8C24D21EFD">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>26ADF445-69BD-9608-1B94-EC1B971B2EE6</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8460B13B-685E-1E8E-BCDC-F3DA5FE2518B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7B6D8728-B2AB-9F08-D15F-F61F9E449138</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id asociacion" id="558E3ADF-6ADA-2D20-8DC8-D1B6ABBCAD0F">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>B80D4A35-34AF-A706-187A-91C9654230A3</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>19C86FD1-FE03-0A0B-3377-AA4E8FB876E1</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>30173C1E-4927-236B-F9F4-3077A020D649</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horas trabajadas" id="39F5D504-860A-EF1A-4F0C-BB4863A40ABE">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>592A9C58-98C0-2F53-0CBD-5FF44FF115DA</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>30173C1E-4927-236B-F9F4-3077A020D649</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor hora extra" id="C7719AA9-0185-D6A7-7D6F-A99232F75FC0">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>D1C869BC-5C56-628F-9E48-C565C08FBC36</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1AF3D19D-5DF9-621D-1F12-10BF846C2001</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BBF9F9F3-C45A-3F39-7C94-289847AADA41" name="trabajador pk">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>8C935119-CF04-3FC3-4C9A-D6ED05506865</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9CE75A09-4EE1-5E6A-A42F-B3478FA9028C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

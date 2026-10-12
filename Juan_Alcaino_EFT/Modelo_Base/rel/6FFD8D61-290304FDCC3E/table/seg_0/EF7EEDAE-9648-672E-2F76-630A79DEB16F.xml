@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF7EEDAE-9648-672E-2F76-630A79DEB16F" name="region">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>07CD3665-64FA-5F16-3BC4-34F2DC08D5D7</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_region" id="1C2616EA-7883-37F9-AB04-399D354A0F98">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>DF52A057-5468-CFBB-A461-877F3D9FB059</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>30173C1E-4927-236B-F9F4-3077A020D649</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="B1AAFC7E-7FB7-724C-DF94-EE68EAAC4FB5">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>11A06947-6600-3B59-2BFA-AB1EEAA766DA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E0A58261-1ED8-A9BB-1E5B-8ACF23DB5EE9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24BB582D-4892-7BAD-69EF-C4CE7A8F8592" name="region_pk">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>65BE5F39-F936-D809-2D96-ABE266AE8208</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C2616EA-7883-37F9-AB04-399D354A0F98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

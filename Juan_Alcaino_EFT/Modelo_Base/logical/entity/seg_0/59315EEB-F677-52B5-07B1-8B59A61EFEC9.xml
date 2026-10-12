@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="59315EEB-F677-52B5-07B1-8B59A61EFEC9" name="historial club">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>C4A9A827-9CDA-C425-7DD9-DE76BB084F5A</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nro inscripcion" id="162A14AA-DA01-CC40-8DDE-FDB9B1101FDF">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>7D5D92F0-B67B-4460-664C-C764BDF246B5</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<referedAttribute>9CE75A09-4EE1-5E6A-A42F-B3478FA9028C</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7626A7F-B8BF-DB04-C63B-CCF942929CBB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id club" id="1B85CA17-E6EC-B232-10CA-F457F246AA0E">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>7301D91B-B071-FA90-2564-0DF5C12EBB45</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<referedAttribute>C6574FAC-9E02-8923-6271-98B3BE2A7C5E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1D82804B-0DF3-587E-F9AB-15B12A23D6CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha inicio" id="43A6DA5D-89B3-CD45-6AD3-01932005BF2C">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>E52CE351-E7A6-C2BF-6DEF-C126EF6A6FCC</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>000CD665-38A6-05DB-793C-6D7D4868C653</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha fin" id="76C2A16D-E57C-8761-8F42-934CA1641A9B">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>27E7526A-7191-A087-F11A-7A849247DE48</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>000CD665-38A6-05DB-793C-6D7D4868C653</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="545BA49D-65BF-8DE4-08E2-144779DBFF86" name="historial club pk">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>D724363F-A5EA-D4E3-44B0-50CF5A9C9E54</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>162A14AA-DA01-CC40-8DDE-FDB9B1101FDF</attributeRef>
+<attributeRef>1B85CA17-E6EC-B232-10CA-F457F246AA0E</attributeRef>
+<attributeRef>43A6DA5D-89B3-CD45-6AD3-01932005BF2C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

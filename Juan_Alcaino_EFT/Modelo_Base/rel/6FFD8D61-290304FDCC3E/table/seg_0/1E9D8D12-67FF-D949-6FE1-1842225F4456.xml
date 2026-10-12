@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E9D8D12-67FF-D949-6FE1-1842225F4456" name="comuna">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>1B88127D-9BD3-B240-D703-0369225EA470</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_comuna" id="7D4CBFAD-C59C-16D4-192E-C03C34836FE9">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>78CDA8BA-64F1-8BC6-E0CD-419556E8CAAF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1D82804B-0DF3-587E-F9AB-15B12A23D6CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_region" id="217A65AB-36F4-FA99-E83D-84064F87EBCE">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>7D3481A4-94E9-1133-65C7-8E3ECEA4E7EF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>30173C1E-4927-236B-F9F4-3077A020D649</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1309111B-ABEA-19CF-CD94-44F5C7BDCA1E" referredColumn="1C2616EA-7883-37F9-AB04-399D354A0F98"/>
+</associations>
+</Column>
+<Column name="nombre" id="C5019013-C973-33F7-E328-203DEE3A37DA">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>9CA7562C-FF73-064A-2A83-97009255BF45</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E0A58261-1ED8-A9BB-1E5B-8ACF23DB5EE9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51622877-B8EC-6306-47C3-72A6EFF9C717" name="comuna_pk">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>FBE8B1F0-F8AA-483D-FC24-B9E1E015724C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D4CBFAD-C59C-16D4-192E-C03C34836FE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC5B5A43-54E7-871A-C642-546B77B0B6A0" name="com_reg_fk">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="217A65AB-36F4-FA99-E83D-84064F87EBCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

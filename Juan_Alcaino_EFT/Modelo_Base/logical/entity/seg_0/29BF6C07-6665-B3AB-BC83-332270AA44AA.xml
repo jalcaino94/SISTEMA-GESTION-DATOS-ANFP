@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="29BF6C07-6665-B3AB-BC83-332270AA44AA" name="escuela">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>B6396567-2DBB-5B1C-0FF1-2F43EC1D5FD1</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id escuela" id="8460B13B-685E-1E8E-BCDC-F3DA5FE2518B">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>34D251AA-6E3D-D941-3600-968743F4C90A</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7B6D8728-B2AB-9F08-D15F-F61F9E449138</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="EED8F8D2-81F4-7F64-798E-39E61917EB3B">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>172B57CA-5B9B-5F02-46A6-60D423D97C7B</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A5AF613C-5013-ED48-7FB0-87C3003E2A12</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="capacidad" id="431EC094-66F8-D9E4-38DD-7B5D73724E31">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>BB35C28E-40BA-A979-4AD8-953BB9B74AFB</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7B6D8728-B2AB-9F08-D15F-F61F9E449138</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha fundacion" id="3F390CD4-F1E4-AB5B-EBE7-62FF88B0FC51">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>917403C1-A1CA-F4DB-B2DA-6A32D33B48CF</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>000CD665-38A6-05DB-793C-6D7D4868C653</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="43659B9E-6FF6-8CF9-43DF-889A11166788" name="escuela pk">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>7D4803C8-5268-A089-1DC8-FEB8491FD732</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8460B13B-685E-1E8E-BCDC-F3DA5FE2518B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

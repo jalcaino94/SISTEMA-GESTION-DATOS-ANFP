@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AB6CDB7B-E4B5-3230-D9E0-9C40011EEC19" containerWithKeyObject="5A7F0BD1-4D59-5DA2-5249-90DA90F01B08" localFKIndex="8DEB23D3-41E6-74B6-1368-3DF2A9F19607" name="trab_asoc_fk">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>A94CBEE9-7C91-8927-082D-5BD7917B5A47</importedID>
+<referredTableLongName>asociacion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E68422D3-57C5-5E96-C102-CCF13103274A</referredTableID>
+<keyObject>C283AC80-4A31-1B09-0795-0158F725F545</keyObject>
+<referredKeyID>C283AC80-4A31-1B09-0795-0158F725F545</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_asociacion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

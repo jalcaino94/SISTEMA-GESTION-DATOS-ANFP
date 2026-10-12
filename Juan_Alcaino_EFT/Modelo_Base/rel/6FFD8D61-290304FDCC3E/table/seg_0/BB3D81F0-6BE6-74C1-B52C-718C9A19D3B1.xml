@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB3D81F0-6BE6-74C1-B52C-718C9A19D3B1" name="club_futbol">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>1DD80B90-DA61-9C22-B59E-8EFEFC8B736F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_club" id="DB623704-5764-9B92-9CDD-62E480603483">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>C31C7CF3-3F82-E6D6-9632-0CF254B745C3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1D82804B-0DF3-587E-F9AB-15B12A23D6CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_club" id="2C2FF1C6-57D1-03B0-61F8-B3B59FF9B7B2">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>333CF110-E350-177F-B6F0-55F08B0CF1F8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A5AF613C-5013-ED48-7FB0-87C3003E2A12</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="patrimonio" id="0D060E6A-E5A7-C15F-FB31-EC25B4082014">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>6DD2F415-BC9A-32CD-3447-DC86CDBF4F79</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F8ECD105-C8C9-E61B-0C87-B240C6C7B06C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ubicacion_calle" id="57E97C28-D2C6-00AC-AEA2-5AFFC1C39B4F">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>BF8115A0-A9F1-903F-6EC8-7C5068AEF3C7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A5AF613C-5013-ED48-7FB0-87C3003E2A12</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_club" id="11E7BABE-87C8-60A3-CFFD-287C46FC95DE">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>0BFAB3FF-BFF1-6B23-7298-775C7AE788D5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B71BD922-C799-1303-8B87-02316E98A7B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A3A0EDC5-CFEE-F3AA-59F4-B07479125A46" name="club_pk">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>F898668C-84C9-5379-240C-B1F530B3336C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB623704-5764-9B92-9CDD-62E480603483"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B32FDBB-4C06-C1AC-BA68-44A2E4E14831" name="club_nombre_un">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>B1E32BE1-BCA8-E334-023F-26B6810F095C</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C2FF1C6-57D1-03B0-61F8-B3B59FF9B7B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

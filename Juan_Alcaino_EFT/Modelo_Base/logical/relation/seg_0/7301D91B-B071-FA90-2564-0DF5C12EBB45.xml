@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="hist_club_fk" directorySegmentName="seg_0" id="7301D91B-B071-FA90-2564-0DF5C12EBB45">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>4ED7C0C1-231B-0A78-C04E-632C4F276050</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<sourcePk>9726058E-1306-F51C-6A1F-2392BCD40F82</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BC88E1F8-F61B-D756-8AF1-5DC312D2E7FF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>59315EEB-F677-52B5-07B1-8B59A61EFEC9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

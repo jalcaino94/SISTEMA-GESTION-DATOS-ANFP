@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo_Base" id="AFE6ECBC-CD6A-4EC7-3820-4425CF149D74" version="3.5">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 14:58:04 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>AFE6ECBC-CD6A-4EC7-3820-4425CF149D74</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="35C458D4-60E0-E26E-135E-4DA0492C8016">
+<designStoragePath>C:\modelo_completo</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="B8A94E34-00B8-283B-C0C7-A6B0F2909D4C">
+<designStoragePath>C:\modelo_completo</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

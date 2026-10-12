@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="dom_idio_fk" directorySegmentName="seg_0" id="61556D65-2878-AE7B-223B-87D3A83619EB">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>0798F853-8AB7-E1EB-8DC2-9D33B7C55D34</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<sourcePk>1E24A1C8-FFDF-61C3-AA6E-8ECCF1DFF62E</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F800161D-CCEB-8EA3-66BE-13C839261112</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>76F67E04-F33B-B102-2A32-E3C6A315368C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

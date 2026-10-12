@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="A884C658-BC50-7DB4-8A6C-7BE01BAD9838" mainViewID="1730D917-EF2B-AD16-9991-43DD90A3519F">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 14:58:04 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

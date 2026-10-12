@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92887885-DDE5-8563-58DC-EA41D2118084" name="dominio_idioma">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>CE9163F7-A53C-2A73-0242-D7D78D898720</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nro_inscripcion" id="34DFA109-5DB8-5A95-C6E6-7DD56EB34618">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>F6A165F0-F369-DA31-F592-592950560F08</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7626A7F-B8BF-DB04-C63B-CCF942929CBB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77D6C9E6-848F-03B2-91E8-9B2B5D6CF8ED" referredColumn="21DA6414-E14C-1B71-4776-64AC1760E1F7"/>
+</associations>
+</Column>
+<Column name="id_idioma" id="9BB6224A-0E1D-D919-F25C-DAC151A138A8">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>E6B24EC0-723D-A1C9-101F-909482C0D8A6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>30173C1E-4927-236B-F9F4-3077A020D649</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0798F853-8AB7-E1EB-8DC2-9D33B7C55D34" referredColumn="5117BE33-66DB-4C80-B975-C82C9EDE7121"/>
+</associations>
+</Column>
+<Column name="nivel_dominio" id="7A5EE483-7A1A-848A-108B-DA09F71ED9C9">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>F3767263-B421-49F4-8554-2FE6DE4FA1AD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B71BD922-C799-1303-8B87-02316E98A7B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CFDE4A47-73D1-7CD4-A738-C57D7A4FF243" name="dominio_idioma_pk">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>F34FB331-5D20-6651-C4E0-9B653DE71C60</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34DFA109-5DB8-5A95-C6E6-7DD56EB34618"/>
+<colUsage columnID="9BB6224A-0E1D-D919-F25C-DAC151A138A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77FEFE6F-6015-A48B-6F14-2BF8130F6A8A" name="dom_idio_fk">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BB6224A-0E1D-D919-F25C-DAC151A138A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F1D3C38-3A08-A0BF-6FE5-38ADCA6DD455" name="dom_trab_fk">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34DFA109-5DB8-5A95-C6E6-7DD56EB34618"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="36D8AF67-2028-D2C2-B325-B10DE23136F4" containerWithKeyObject="C4A9A827-9CDA-C425-7DD9-DE76BB084F5A" localFKIndex="22DB7860-1D51-6C21-8F5A-E369480AE523" name="hist_trab_fk">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>B28FEA04-3CDD-F5E7-D282-844821070372</importedID>
+<referredTableLongName>trabajador</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5A7F0BD1-4D59-5DA2-5249-90DA90F01B08</referredTableID>
+<keyObject>8C935119-CF04-3FC3-4C9A-D6ED05506865</keyObject>
+<referredKeyID>8C935119-CF04-3FC3-4C9A-D6ED05506865</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nro_inscripcion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

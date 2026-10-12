@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="trab_com_fk" directorySegmentName="seg_0" id="E47C2187-8072-673C-D323-148D6842AF1C">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>F3CC12B6-5B04-69F0-BA71-9D56A7B4A703</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<sourcePk>2CE3F64B-1FB8-BA6A-B292-728159FB32E8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>269CD38A-E849-2B09-C505-9038239F1E95</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FAF25189-94CE-6498-0A11-4DCB3158BF34</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

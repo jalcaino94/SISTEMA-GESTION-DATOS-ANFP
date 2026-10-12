@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F3CC12B6-5B04-69F0-BA71-9D56A7B4A703" containerWithKeyObject="5A7F0BD1-4D59-5DA2-5249-90DA90F01B08" localFKIndex="958E07CF-5701-70D7-F0EB-23197EA7401B" name="trab_com_fk">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>A09BF52E-F31E-4FC8-A5EC-9D393680C92C</importedID>
+<referredTableLongName>comuna</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1E9D8D12-67FF-D949-6FE1-1842225F4456</referredTableID>
+<keyObject>51622877-B8EC-6306-47C3-72A6EFF9C717</keyObject>
+<referredKeyID>51622877-B8EC-6306-47C3-72A6EFF9C717</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_comuna</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

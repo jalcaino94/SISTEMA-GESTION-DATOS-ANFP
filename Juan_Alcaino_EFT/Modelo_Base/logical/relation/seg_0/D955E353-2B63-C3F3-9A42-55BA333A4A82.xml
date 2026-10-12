@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="com_reg_fk" directorySegmentName="seg_0" id="D955E353-2B63-C3F3-9A42-55BA333A4A82">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:07:33 UTC</createdTime>
+<generatorID>1309111B-ABEA-19CF-CD94-44F5C7BDCA1E</generatorID>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<engineerTo>
+<item key="6FFD8D61-C568-6991-F954-290304FDCC3E" value="true"/>
+</engineerTo>
+<sourcePk>49EE2C80-ECC7-6D69-F247-E44D12B44DC6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>832E6135-87AA-3219-BFB9-B6CA23669475</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>269CD38A-E849-2B09-C505-9038239F1E95</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

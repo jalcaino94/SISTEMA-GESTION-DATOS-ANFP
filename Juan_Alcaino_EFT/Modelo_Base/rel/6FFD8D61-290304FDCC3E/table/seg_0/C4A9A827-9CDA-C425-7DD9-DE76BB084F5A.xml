@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4A9A827-9CDA-C425-7DD9-DE76BB084F5A" name="historial_club">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>0EDD3CD6-2CF0-930E-FCE8-397D60A7D7A2</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nro_inscripcion" id="596FAEF2-4CC3-1B40-4134-BA50DAD4B064">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>901E6FDF-7BE0-0D85-280D-32DE9233DCDD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7626A7F-B8BF-DB04-C63B-CCF942929CBB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36D8AF67-2028-D2C2-B325-B10DE23136F4" referredColumn="21DA6414-E14C-1B71-4776-64AC1760E1F7"/>
+</associations>
+</Column>
+<Column name="id_club" id="341CDF83-DE44-431A-53A3-319AD73DE91D">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>921B5147-7808-3973-8BDF-AD0E3769DE09</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1D82804B-0DF3-587E-F9AB-15B12A23D6CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4ED7C0C1-231B-0A78-C04E-632C4F276050" referredColumn="DB623704-5764-9B92-9CDD-62E480603483"/>
+</associations>
+</Column>
+<Column name="fecha_inicio" id="E52CE351-E7A6-C2BF-6DEF-C126EF6A6FCC">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>21CFE607-15C9-8520-37E7-2D5C0B515B40</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>000CD665-38A6-05DB-793C-6D7D4868C653</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_fin" id="27E7526A-7191-A087-F11A-7A849247DE48">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>C52EE96B-6860-5CE9-F816-23A5BC0B76CA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>000CD665-38A6-05DB-793C-6D7D4868C653</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D724363F-A5EA-D4E3-44B0-50CF5A9C9E54" name="historial_club_pk">
+<sourceDDLFile>modelo_completo.sql</sourceDDLFile>
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<importedID>791FF984-C930-FBCA-0A41-37B669E69347</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="596FAEF2-4CC3-1B40-4134-BA50DAD4B064"/>
+<colUsage columnID="341CDF83-DE44-431A-53A3-319AD73DE91D"/>
+<colUsage columnID="E52CE351-E7A6-C2BF-6DEF-C126EF6A6FCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="437A27A8-82AC-124F-986B-5E5058DCF055" name="hist_club_fk">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="341CDF83-DE44-431A-53A3-319AD73DE91D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22DB7860-1D51-6C21-8F5A-E369480AE523" name="hist_trab_fk">
+<createdBy>jagui</createdBy>
+<createdTime>2026-10-03 15:06:36 UTC</createdTime>
+<ownerDesignName>Modelo_Base</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="596FAEF2-4CC3-1B40-4134-BA50DAD4B064"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
